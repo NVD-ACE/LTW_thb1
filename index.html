@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <h1>Đăng nhập</h1>
+            <form id="loginForm">
+              <label for="name">Tên:</label>
+              <input type="text" id="name" name="name" required>
+              <br>
+              <label for="dob">Ngày tháng năm sinh:</label>
+              <input type="date" id="dob" name="dob" required>
+              <br>
+              <label for="studentId">Mã sinh viên:</label>
+              <input type="text" id="studentId" name="studentId" required>
+              <br>
+              <label for="class">Lớp:</label>
+              <input type="text" id="class" name="class" required>
+              <br>
+              <input type="submit" value="Đăng nhập">
+            </form>
+        </form>
+    </div>
+    <div class="question">
+        <h1>Câu hỏi trắc nghiệm</h1>
+        <form id="quizForm">
+            <!-- danh sách câu hỏi 3 đáp án -->
+          <h2>Câu hỏi 1:</h2>
+          <h2>Cho biết đường dẫn nào là đường dẫn hợp lệ?</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question1" value="a">
+            A. C:/MONHOC/TOAN
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question1" value="b">
+            B. C./MONHOC/TOAN
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question1" value="c">
+            C. C:\MONHOC\TOAN 
+          </label>
+          <br>
+    
+          <h2>Câu hỏi 2:</h2>
+          <h2>Để biểu diễn bảng chữ cái gồm 26 kí tự thì máy tính cần ít nhất là:</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question2" value="a" >
+            A. 7 bit
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question2" value="b">
+            B. 6 bit
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question2" value="c">
+            C. 8 bit
+          </label>
+          <br>
+          <h2>Câu hỏi 3:</h2>
+          <h2>Tổng của 47 856 và 35 687 là:</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question3" value="a">
+            A. 83444
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question3" value="b">
+            B. 66666
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question3" value="c">
+            C. 77777
+          </label>
+          <br>
+    
+          <h2>Câu hỏi 4:</h2>
+          <h2>Kết quả của phép tính: 6 + 8 là:</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question4" value="a">
+            A. 14
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question4" value="b">
+            B. 15
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question4" value="c">
+            C. 16
+          </label>
+          <br>
+          <h2>Câu hỏi 5:</h2>
+          <h2>Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question5" value="a">
+            A. 1000
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question5" value="b">
+            B. 100
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question5" value="c">
+            C. 1234
+          </label>
+          <br>
+    
+          <h2>Câu hỏi 6:</h2>
+          <h2>Để khai báo danh sách a rỗng, phương án nào sau đây đúng?</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question6" value="a">
+            A. a==[]
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question6" value="b">
+            B. a=0
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question6" value="c">
+            C. a=[]
+          </label>
+          <br>
+          <h2>Câu hỏi 7:</h2>
+          <h2>Để khởi tạo danh sách a gồm 50 số 0, phương án nào sau đây đúng?</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question7" value="a">
+            A. a=0...50
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question7" value="b">
+            B. a=[0...50]
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question7" value="c">
+            C. a=[0]*50
+          </label>
+          <br>
+    
+          <h2>Câu hỏi 8:</h2>
+          <h2>Để xóa phần tử thứ 2 trong danh sách a ta dùng lệnh:</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question8" value="a">
+            A. del(a[2])
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question8" value="b">
+            B. del(a[0])
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question8" value="c">
+            C. del(a)
+          </label>
+          <br>
+          <h2>Câu hỏi 9:</h2>
+          <h2>Để xóa 2 phần tử đầu tiên trong danh sách a, phương án nào sau đây đúng?</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question9" value="a">
+            A. del(a[1:2])
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question9" value="b">
+            B. del(a[0:1])
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question9" value="c">
+            C. del(a)
+          </label>
+          <br>
+    
+          <h2>Câu hỏi 10:</h2>
+          <h2>Để thêm số 5 vào cuối danh sách a, phương án nào sau đây đúng?</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question10" value="a">
+            A. a.append(5)
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question10" value="b">
+            B. a.push(5)
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question10" value="c">
+            C. pop(5);
+          </label>
+          <br>
+          <!-- danh sách câu hỏi 2 đáp án -->
+          <h2>Câu hỏi 11:</h2>
+          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question9" value="a">
+            A. Đúng
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question9" value="b">
+            B. Sai
+          </label>
+          <br>
+          <h2>Câu hỏi 12:</h2>
+          <h2>Cá heo là một loài cá</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question10" value="a">
+            A. Sai
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question10" value="b">
+            B. Đúng
+          </label>
+          <br>
+          <h2>Câu hỏi 11:</h2>
+          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question9" value="a">
+            A. Đúng
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question9" value="b">
+            B. Sai
+          </label>
+          <br>
+          <h2>Câu hỏi 12:</h2>
+          <h2>Cá heo là một loài cá</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question10" value="a">
+            A. Sai
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question10" value="b">
+            B. Đúng
+          </label>
+          <br>
+          <h2>Câu hỏi 13:</h2>
+          <h2>Nước đá tan nhanh hơn nước lỏng</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question9" value="a">
+            A. Đúng
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question9" value="b">
+            B. Sai
+          </label>
+          <br>
+          <h2>Câu hỏi 14:</h2>
+          <h2>Cá heo là một loài cá</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question10" value="a">
+            A. Sai
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question10" value="b">
+            B. Đúng
+          </label>
+          <br>
+          <h2>Câu hỏi 15:</h2>
+          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question9" value="a">
+            A. Đúng
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question9" value="b">
+            B. Sai
+          </label>
+          <br>
+          <h2>Câu hỏi 16:</h2>
+          <h2>Cá heo là một loài cá</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question10" value="a">
+            A. Sai
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question10" value="b">
+            B. Đúng
+          </label>
+          <br>
+          <h2>Câu hỏi 17:</h2>
+          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question9" value="a">
+            A. Đúng
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question9" value="b">
+            B. Sai
+          </label>
+          <br>
+          <h2>Câu hỏi 18:</h2>
+          <h2>Cá heo là một loài cá</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question10" value="a">
+            A. Sai
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question10" value="b">
+            B. Đúng
+          </label>
+          <br>
+          <h2>Câu hỏi 19:</h2>
+          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question9" value="a">
+            A. Đúng
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question9" value="b">
+            B. Sai
+          </label>
+          <br>
+          <h2>Câu hỏi 20:</h2>
+          <h2>Cá heo là một loài cá</h2>
+          <p>Chọn đáp án đúng:</p>
+          <label>
+            <input type="radio" name="question10" value="a">
+            A. Sai
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="question10" value="b">
+            B. Đúng
+          </label>
+          <br>
+          <input class="question_sub" type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

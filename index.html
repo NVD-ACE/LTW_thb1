@@ -1,381 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="container">
-        <form id="loginForm">
-            <h1>Đăng nhập</h1>
-            <form id="loginForm">
-              <label for="name">Tên:</label>
-              <input type="text" id="name" name="name" required>
-              <br>
-              <label for="dob">Ngày tháng năm sinh:</label>
-              <input type="date" id="dob" name="dob" required>
-              <br>
-              <label for="studentId">Mã sinh viên:</label>
-              <input type="text" id="studentId" name="studentId" required>
-              <br>
-              <label for="class">Lớp:</label>
-              <input type="text" id="class" name="class" required>
-              <br>
-              <input type="submit" value="Đăng nhập">
-            </form>
-        </form>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="">
+        <div class="heading__nav">
+          <div class="heading__name">
+            <h1>Kì thi kết thúc học phần</h1>
+          </div>
+          <div class="heading__items">
+            <h4 class="heading__times">10:06</h4>
+            <div class="heading__icon__img">
+              <img src="./src/img/149071.png" alt="" class="heading__icon" />
+            </div>
+            <ul class="infomation_account active">
+              <li>Nguyễn Văn Dũng</li>
+              <li>B21DCCN278</li>
+              <li><a href="">Hồ sơ</a></li>
+              <li><a href="">Lớp học</a></li>
+              <li><a href="">Đăng xuất</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="number_of_sentences">
+            <div class="question_number">
+              <button class="question_number_index">1</button>
+              <button class="question_number_index">2</button>
+              <button class="question_number_index">3</button>
+              <button class="question_number_index">4</button>
+              <button class="question_number_index">5</button>
+              <button class="question_number_index">6</button>
+              <button class="question_number_index">7</button>
+              <button class="question_number_index">8</button>
+              <button class="question_number_index">9</button>
+              <button class="question_number_index">10</button>
+              <button class="question_number_index">11</button>
+              <button class="question_number_index">12</button>
+              <button class="question_number_index">13</button>
+              <button class="question_number_index">14</button>
+              <button class="question_number_index">15</button>
+              <button class="question_number_index">16</button>
+              <button class="question_number_index">17</button>
+              <button class="question_number_index">18</button>
+              <button class="question_number_index">19</button>
+              <button class="question_number_index">20</button>
+              <button class="question_number_index">21</button>
+              <button class="question_number_index">22</button>
+              <button class="question_number_index">23</button>
+              <button class="question_number_index">24</button>
+              <button class="question_number_index">25</button>
+              <button class="question_number_index">26</button>
+              <button class="question_number_index">27</button>
+              <button class="question_number_index">28</button>
+              <button class="question_number_index">29</button>
+              <button class="question_number_index">30</button>
+            </div>
+            <div class="submit_question">
+              <button type="submit" class="btn__submit">Nộp bài</button>
+            </div>
+          </div>
+          <div class="content_question">
+            <div class="container__question">
+              <h5>Câu 1: Bác Hồ ra đi tìm đường cứu nước năm nào ?</h5>
+              <ul class="answer_content">
+                <li>A: 1911</li>
+                <li>B: 1912</li>
+                <li>C: 1913</li>
+                <li>D: 1914</li>
+              </ul>
+              <div class="list_answer">
+                <button class="btn_answer btn_answer--active" value="">
+                  A
+                </button>
+                <button class="btn_answer" value="">B</button>
+                <button class="btn_answer" value="">C</button>
+                <button class="btn_answer" value="">D</button>
+              </div>
+            </div>
+            <div class="container__question">
+              <h5>Câu 1: Bác Hồ ra đi tìm đường cứu nước năm nào ?</h5>
+              <ul class="answer_content">
+                <li>A: 1911</li>
+                <li>B: 1912</li>
+                <li>C: 1913</li>
+                <li>D: 1914</li>
+              </ul>
+              <div class="list_answer">
+                <button class="btn_answer btn_answer--active" value="">
+                  A
+                </button>
+                <button class="btn_answer" value="">B</button>
+                <button class="btn_answer" value="">C</button>
+                <button class="btn_answer" value="">D</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"></div>
+      </div>
     </div>
-    <div class="question">
-        <h1>Câu hỏi trắc nghiệm</h1>
-        <form id="quizForm">
-            <!-- danh sách câu hỏi 3 đáp án -->
-          <h2>Câu hỏi 1:</h2>
-          <h2>Cho biết đường dẫn nào là đường dẫn hợp lệ?</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question1" value="a">
-            A. C:/MONHOC/TOAN
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question1" value="b">
-            B. C./MONHOC/TOAN
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question1" value="c">
-            C. C:\MONHOC\TOAN 
-          </label>
-          <br>
-    
-          <h2>Câu hỏi 2:</h2>
-          <h2>Để biểu diễn bảng chữ cái gồm 26 kí tự thì máy tính cần ít nhất là:</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question2" value="a" >
-            A. 7 bit
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question2" value="b">
-            B. 6 bit
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question2" value="c">
-            C. 8 bit
-          </label>
-          <br>
-          <h2>Câu hỏi 3:</h2>
-          <h2>Tổng của 47 856 và 35 687 là:</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question3" value="a">
-            A. 83444
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question3" value="b">
-            B. 66666
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question3" value="c">
-            C. 77777
-          </label>
-          <br>
-    
-          <h2>Câu hỏi 4:</h2>
-          <h2>Kết quả của phép tính: 6 + 8 là:</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question4" value="a">
-            A. 14
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question4" value="b">
-            B. 15
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question4" value="c">
-            C. 16
-          </label>
-          <br>
-          <h2>Câu hỏi 5:</h2>
-          <h2>Trong các số dưới đây, số nào không thuộc dãy số: 1, 4, 7, 10, 13, ...</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question5" value="a">
-            A. 1000
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question5" value="b">
-            B. 100
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question5" value="c">
-            C. 1234
-          </label>
-          <br>
-    
-          <h2>Câu hỏi 6:</h2>
-          <h2>Để khai báo danh sách a rỗng, phương án nào sau đây đúng?</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question6" value="a">
-            A. a==[]
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question6" value="b">
-            B. a=0
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question6" value="c">
-            C. a=[]
-          </label>
-          <br>
-          <h2>Câu hỏi 7:</h2>
-          <h2>Để khởi tạo danh sách a gồm 50 số 0, phương án nào sau đây đúng?</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question7" value="a">
-            A. a=0...50
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question7" value="b">
-            B. a=[0...50]
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question7" value="c">
-            C. a=[0]*50
-          </label>
-          <br>
-    
-          <h2>Câu hỏi 8:</h2>
-          <h2>Để xóa phần tử thứ 2 trong danh sách a ta dùng lệnh:</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question8" value="a">
-            A. del(a[2])
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question8" value="b">
-            B. del(a[0])
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question8" value="c">
-            C. del(a)
-          </label>
-          <br>
-          <h2>Câu hỏi 9:</h2>
-          <h2>Để xóa 2 phần tử đầu tiên trong danh sách a, phương án nào sau đây đúng?</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question9" value="a">
-            A. del(a[1:2])
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question9" value="b">
-            B. del(a[0:1])
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question9" value="c">
-            C. del(a)
-          </label>
-          <br>
-    
-          <h2>Câu hỏi 10:</h2>
-          <h2>Để thêm số 5 vào cuối danh sách a, phương án nào sau đây đúng?</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question10" value="a">
-            A. a.append(5)
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question10" value="b">
-            B. a.push(5)
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question10" value="c">
-            C. pop(5);
-          </label>
-          <br>
-          <!-- danh sách câu hỏi 2 đáp án -->
-          <h2>Câu hỏi 11:</h2>
-          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question9" value="a">
-            A. Đúng
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question9" value="b">
-            B. Sai
-          </label>
-          <br>
-          <h2>Câu hỏi 12:</h2>
-          <h2>Cá heo là một loài cá</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question10" value="a">
-            A. Sai
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question10" value="b">
-            B. Đúng
-          </label>
-          <br>
-          <h2>Câu hỏi 11:</h2>
-          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question9" value="a">
-            A. Đúng
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question9" value="b">
-            B. Sai
-          </label>
-          <br>
-          <h2>Câu hỏi 12:</h2>
-          <h2>Cá heo là một loài cá</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question10" value="a">
-            A. Sai
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question10" value="b">
-            B. Đúng
-          </label>
-          <br>
-          <h2>Câu hỏi 13:</h2>
-          <h2>Nước đá tan nhanh hơn nước lỏng</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question9" value="a">
-            A. Đúng
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question9" value="b">
-            B. Sai
-          </label>
-          <br>
-          <h2>Câu hỏi 14:</h2>
-          <h2>Cá heo là một loài cá</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question10" value="a">
-            A. Sai
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question10" value="b">
-            B. Đúng
-          </label>
-          <br>
-          <h2>Câu hỏi 15:</h2>
-          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question9" value="a">
-            A. Đúng
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question9" value="b">
-            B. Sai
-          </label>
-          <br>
-          <h2>Câu hỏi 16:</h2>
-          <h2>Cá heo là một loài cá</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question10" value="a">
-            A. Sai
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question10" value="b">
-            B. Đúng
-          </label>
-          <br>
-          <h2>Câu hỏi 17:</h2>
-          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question9" value="a">
-            A. Đúng
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question9" value="b">
-            B. Sai
-          </label>
-          <br>
-          <h2>Câu hỏi 18:</h2>
-          <h2>Cá heo là một loài cá</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question10" value="a">
-            A. Sai
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question10" value="b">
-            B. Đúng
-          </label>
-          <br>
-          <h2>Câu hỏi 19:</h2>
-          <h2>Trái đất là hành tinh thứ 3 hệ mặt trời</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question9" value="a">
-            A. Đúng
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question9" value="b">
-            B. Sai
-          </label>
-          <br>
-          <h2>Câu hỏi 20:</h2>
-          <h2>Cá heo là một loài cá</h2>
-          <p>Chọn đáp án đúng:</p>
-          <label>
-            <input type="radio" name="question10" value="a">
-            A. Sai
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="question10" value="b">
-            B. Đúng
-          </label>
-          <br>
-          <input class="question_sub" type="submit" value="Submit">
-        </form>
-    </div>
-    <script src="main.js"></script>
-</body>
+    <!-- <div class="grid">
+        <div class="heading_result">
+            <h1 class="heading_result__name">Kì thi kết thúc học phần</h1>
+            <img src="./src/img/149071.png" alt="">
+        </div>
+        <div class="body_result">
+            <div class="body_result__content">
+                <h3>Chúc mừng bạn đã hoàn thành bài thi!</h3>
+                <h6>Kết quả bạn đạt được là</h6>
+                <p>9.6</p>
+                <button>Xem kết quả</button>
+            </div>
+
+        </div>
+        <div class="footer_result">
+            <h5>Bài tập lớn môn lập Trình web</h5>
+            <h6>Design by Group &7</h6>
+        </div>
+    </div> -->
+    <script src="./src/js/main.js"></script>
+  </body>
 </html>
